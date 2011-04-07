@@ -8,7 +8,7 @@ I confess to not having run the tests against this, but it seems to work exactly
 
 ## INSTALLATION
   
-Geokit consists of a Gem ([geokit-gem](http://github.com/andre/geokit-gem/tree/master)) and a Rails plugin ([geokit-rails](http://github.com/andre/geokit-rails/tree/master)).
+Geokit consists of a Gem ([geokit-gem](http://github.com/andre/geokit-gem/tree/master)) and a Rails plugin ([geokit-rails](http://github.com/niralisse/geokit-rails-mysql2/tree/master)).
 
 #### 1. Install the Rails plugin:
 
@@ -77,7 +77,7 @@ The optional parameters are :units, :formula, and distance_field_name.
 Values for :units can be :miles, :kms (kilometers), or :nms (nautical miles),
 with :miles as the default.  Values for :formula can be :sphere or :flat with
 :sphere as the default.  :sphere gives you Haversine calculations, while :flat 
-gives the Pythagoreum Theory.  These defaults persist through out the plug-in.
+gives the Pythagorean Theory.  These defaults persist through out the plug-in.
 
 The plug-in creates a calculated `distance` field on AR instances that have
 been retrieved throw a Geokit location query. By default, these fields are 
