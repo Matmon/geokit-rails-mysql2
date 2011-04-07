@@ -4,7 +4,7 @@ It's geokit-rails for Rails 2.x with added mysql2 support. That's it.
 
 Mysql2 support has been backported from Jérémy Lecour's work on [geokit-rails3](https://github.com/jlecour/geokit-rails3).
 
-I confess to not having run the tests against this, but it seems to work exactly how you'd expect, and is working great in a large production application. If you're a Geokit developer and want to let me know whether the tests pass I'd appreciate it.
+I confess to not having run the bundled tests against this, but it seems to work exactly how you'd expect, and is working great in a large production application. If you're a Geokit developer and want to let me know whether the tests pass I'd appreciate it.
 
 ## INSTALLATION
   
@@ -13,7 +13,7 @@ Geokit consists of a Gem ([geokit-gem](http://github.com/andre/geokit-gem/tree/m
 #### 1. Install the Rails plugin:
 
     cd [YOUR_RAILS_APP_ROOT]
-    script/plugin install git://github.com/andre/geokit-rails.git
+    script/plugin install git://github.com/niralisse/geokit-rails-mysql2.git
     
 #### 2. Add this line to your environment.rb 
 (inside the Rails::Initializer.run do |config| block)
